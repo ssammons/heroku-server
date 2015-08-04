@@ -1,0 +1,33 @@
+{
+  "name": "Heroku-Server",
+  "version": "0.0.1",
+  "description": "The server for the car rental application, 'RentalCar'",
+  "author": "Kendal Harland <kendaljharland@gmail.com>",
+  "contributors": [
+    {"name": "Siddhant Sethi",     "email": "siddhant.sethi91@gmail.com"},
+    {"name": "Stephanie Sammons",  "email": "chirox90@gmail.com"},
+    {"name": "Grant Hays",         "email": "granthays@gmail.com" },
+    {"name": "Jackson Montgomery", "email": "j573m923@ku.edu" },
+    {"name": "Lei Wang",           "email": "l290w868@gmail.com"},
+    {"name": "Greg Pregulman",     "email": "gpregulman@gmail.com"}
+  ],
+  "bin": {},
+  "scripts": {},
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url" : "git@github.com:ItsNotYourSegFault/RentalCar.git"
+  },
+  "bugs": {
+    "url" : "git@github.com:ItsNotYourSegFault/RentalCar/issues"
+  },
+  "keywords": [],
+  "dependencies": {
+    "express": ">=4.11.2",
+    "mysql":   ">=2.5.4",
+		"body-parser": ">=1.12.0",
+		"underscore": "1.8.1"
+  },
+  "private": true,
+  "analyze": true
+}
